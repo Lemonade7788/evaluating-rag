@@ -10,6 +10,12 @@ This project provides a framework to compare three Retrieval-Augmented Generatio
 
 It supports both a Streamlit chatbot UI and a CLI pipeline for batch testing and evaluation.
 
+## Project Context
+
+This repository is part of my **Final Year Project** at Universiti Malaysia Sarawak (UNIMAS).  
+It implements and evaluates three Retrieval-Augmented Generation (RAG) strategies — **Embedding-RAG**, **SQL-RAG**, and **Graph-RAG** — on structured data.  
+The project provides a unified framework with both an interactive Streamlit chatbot UI and a CLI pipeline, enabling systematic comparison across context relevance, groundedness, and answer relevance.  
+
 ## Pre-requisites
 
 - **Python 3.12+**
