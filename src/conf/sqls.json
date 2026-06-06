@@ -1,0 +1,18 @@
+[
+  {
+    "input": "What events are recorded in the year 1900?",
+    "query": "SELECT * FROM Calendar WHERE year = 1900 AND events IS NOT NULL AND events <> '';"
+  },
+  {
+    "input": "How many events occurred per month?",
+    "query": "SELECT month, COUNT(*) AS event_count FROM Calendar WHERE events IS NOT NULL AND events <> '' GROUP BY month;"
+  },
+  {
+    "input": "How many events were recorded each year?",
+    "query": "SELECT year, COUNT(*) AS event_count FROM Calendar WHERE events IS NOT NULL AND events <> '' GROUP BY year;"
+  },
+  {
+    "input": "What events are scheduled for January?",
+    "query": "SELECT * FROM Calendar WHERE month = 'January';"
+  }
+]

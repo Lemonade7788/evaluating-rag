@@ -1,0 +1,475 @@
+{
+    "properties": {
+        "year": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "LunduEntranceExam",
+                "db_column": "year",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "month": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "KuchingMarketPrice",
+                "db_column": "month",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "day": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "Calendar",
+                "db_column": "day",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "english_date": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "Calendar",
+                "db_column": "english_date",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "chinese_date": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "Calendar",
+                "db_column": "chinese_date",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "muslim_date": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "Calendar",
+                "db_column": "muslim_date",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "moon_phases": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "Calendar",
+                "db_column": "moon_phases",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "events": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "Calendar",
+                "db_column": "events",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "kuching_high_water_1": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "Calendar",
+                "db_column": "kuching_high_water_1",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "kuching_high_water_2": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "Calendar",
+                "db_column": "kuching_high_water_2",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "miri_high_water_1": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "Calendar",
+                "db_column": "miri_high_water_1",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "miri_high_water_2": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "Calendar",
+                "db_column": "miri_high_water_2",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "miri_high_water_3": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "Calendar",
+                "db_column": "miri_high_water_3",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "category": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "KuchingMarketPrice",
+                "db_column": "category",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "item": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "KuchingMarketPrice",
+                "db_column": "item",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "per": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "KuchingMarketPrice",
+                "db_column": "per",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "average_price": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "KuchingMarketPrice",
+                "db_column": "average_price",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "District": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "ImportExport1969",
+                "db_column": "District",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "Import (dollar)": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "ImportExport1969",
+                "db_column": "Import (dollar)",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "Export (dollar)": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "ImportExport1969",
+                "db_column": "Export (dollar)",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "Name": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "KapitAdminTransfer1970",
+                "db_column": "Name",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "Rank": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "KapitAdminTransfer1970",
+                "db_column": "Rank",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "Transfer From": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "KapitAdminTransfer1970",
+                "db_column": "Transfer From",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "Transfer To": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "KapitAdminTransfer1970",
+                "db_column": "Transfer To",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "Effective Date": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "KapitAdminTransfer1970",
+                "db_column": "Effective Date",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "Remarks": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "KapitAdminTransfer1970",
+                "db_column": "Remarks",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "district": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "LunduEntranceExam",
+                "db_column": "district",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "no_of_pupils": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "LunduEntranceExam",
+                "db_column": "no_of_pupils",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "selected": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "LunduEntranceExam",
+                "db_column": "selected",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "percent": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "LunduEntranceExam",
+                "db_column": "percent",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "cohort_beginning": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "PrimarySchoolDropouts",
+                "db_column": "cohort_beginning",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "std_1_count": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "PrimarySchoolDropouts",
+                "db_column": "std_1_count",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "std_1_retention_rate": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "PrimarySchoolDropouts",
+                "db_column": "std_1_retention_rate",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "std_2_count": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "PrimarySchoolDropouts",
+                "db_column": "std_2_count",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "std_2_retention_rate": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "PrimarySchoolDropouts",
+                "db_column": "std_2_retention_rate",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "std_3_count": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "PrimarySchoolDropouts",
+                "db_column": "std_3_count",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "std_3_retention_rate": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "PrimarySchoolDropouts",
+                "db_column": "std_3_retention_rate",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "std_4_count": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "PrimarySchoolDropouts",
+                "db_column": "std_4_count",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "std_4_retention_rate": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "PrimarySchoolDropouts",
+                "db_column": "std_4_retention_rate",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "std_5_count": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "PrimarySchoolDropouts",
+                "db_column": "std_5_count",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "std_5_retention_rate": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "PrimarySchoolDropouts",
+                "db_column": "std_5_retention_rate",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "std_6_count": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "PrimarySchoolDropouts",
+                "db_column": "std_6_count",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "std_6_retention_rate": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "PrimarySchoolDropouts",
+                "db_column": "std_6_retention_rate",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "state": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "SarawakFinance",
+                "db_column": "state",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "Year": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "SarawakFinance",
+                "db_column": "Year",
+                "pk_column": null,
+                "numeric": true
+            }
+        },
+        "Revenue (dollar)": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "SarawakFinance",
+                "db_column": "Revenue (dollar)",
+                "pk_column": null,
+                "numeric": false
+            }
+        },
+        "Expenditure (dollar)": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "db_table": "SarawakFinance",
+                "db_column": "Expenditure (dollar)",
+                "pk_column": null,
+                "numeric": false
+            }
+        }
+    },
+    "required": []
+}
